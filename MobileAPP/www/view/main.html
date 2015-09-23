@@ -1,0 +1,224 @@
+﻿<ion-view title="Main">
+	<ion-side-menus enable-menu-with-back-views="true">
+        <ion-side-menu-content>
+            <ion-header-bar class="bar-positive" align-title="center">
+                <div class="h1 title">Mobile SysFreight</div>
+            </ion-header-bar>
+            <ion-side-menus enable-menu-with-back-views="true">
+                <ion-pane>
+                    <ion-tabs class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+                        <ion-tab title="Home" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline">
+                            <div class="container">
+                                <div style="margin-top:8.5em;">
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-50.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="scanBarcode()"><img src="./img/free-60-icons-59.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="scanBarcode()"><img src="./img/free-60-icons-60.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="scanBarcode()"><img src="./img/free-60-icons-50.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-59.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-60.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ion-tab>
+                        <ion-tab title="About" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline">
+                            <div class="container">
+                                <div style="margin-top:8.5em;">
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-58.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ion-tab>
+                        <ion-tab title="Settings" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline">
+                            <div class="container">
+                                <div style="margin-top:8.5em;">
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row row-center">
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                        <div class="col" style="text-align:center;">
+                                            <br>
+                                            <a style="width:90%;height:100%;" ng-click="GoToList()"><img src="./img/free-60-icons-16.png" width="80%" alt="" class="img-circle"></a>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ion-tab>
+                    </ion-tabs>
+                    <div class="bar bar-footer" style="height:20%;">
+                        <img src="./img/ad.png" alt="" style="display:block;" width="100%">
+                    </div>
+                </ion-pane>        
+            </ion-side-menus>
+        </ion-side-menu-content>
+        <ion-side-menu side="left">
+            <ion-header-bar align-title="center" class="bar-positive">
+                <h1 class="title">Settings</h1>
+                <div class="buttons pull-right" nav-clear menu-close>
+                    <button class="button button-icon icon ion-android-options"></button>
+                </div>
+            </ion-header-bar>
+            <ion-content class="has-header">
+                <ion-list>
+                    <ion-item nav-clear ng-click="setConf()">
+                        <i class="icon ion-android-settings"></i> Server-Side Configuration
+                    </ion-item>
+                </ion-list>
+                <div class="item item-divider">
+                    Functions
+                </div>
+                <ul class="list">
+                    <li class="item item-toggle">
+                        Toggle
+                        <label class="toggle toggle-assertive">
+                            <input type="checkbox">
+                            <div class="track">
+                                <div class="handle"></div>
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li class="item item-checkbox">
+                        <label class="checkbox">
+                            <input type="checkbox">
+                        </label>
+                        Checkbox
+                    </li>
+                </ul>
+                <div class="list">
+                    <div class="item range range-positive">
+                        <i class="icon ion-ios-sunny-outline"></i>
+                        <input type="range" name="volume" min="0" max="100" value="33">
+                        <i class="icon ion-ios-sunny"></i>
+                    </div>
+                </div>
+            </ion-content>
+        </ion-side-menu>
+    </ion-side-menus>    
+</ion-view>

@@ -1,0 +1,59 @@
+﻿<ion-view title="Detail">
+	<ion-header-bar class="bar-positive" align-title="center">
+		<button class="button button-icon icon ion-navicon" ng-click="returnList()"></button>
+		<div class="h1 title">Customer Detail</div>
+	</ion-header-bar>
+	<ion-content class="has-header">
+		<div>
+            <div class="list card">
+
+                <div class="item item-avatar">
+                    <img src="./img/avatar.png">
+                    <h2>Marty McFly</h2>
+                    <p>November 05, 1955</p>
+                </div>
+
+                <div class="item item-body">
+                    <img class="small-image" src="./img/avatar1.png" style="width:30%;">
+                    <p>
+                        This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+                        the content is from a card-body consisting of an image and paragraph text. The footer
+                        consists of tabs, icons aligned left, within the card-footer.
+                    </p>
+                    <div class="list">
+                        <label class="item item-input">
+                            <span class="input-label">John</span>
+                        </label>
+                        <label class="item item-input">
+                            <span class="input-label">05925888865</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="item tabs tabs-secondary tabs-icon-left">
+                    <a class="tab-item" href="">
+                        <i class="icon ion-android-call"></i>
+                         Call
+                    </a>
+                    <a class="tab-item" href="">
+                        <i class="icon ion-ios-location"></i>
+                        Map
+                    </a>
+                    <a class="tab-item" href="">
+                        <i class="icon ion-share"></i>
+                        Share
+                    </a>
+                </div>
+                <a class="item item-icon-left assertive" href="">
+                    <i class="icon ion-music-note"></i>
+                    listening sth.
+                </a>
+            </div>
+		</div>
+	</ion-content>
+	<ion-footer-bar>
+		<div class="button-bar">
+			<a class="button button-positive" ng-click="GoToDetailEdit()">Edit</a>
+			<a class="button button-light" ng-click="returnList()">Cancel</a>
+		</div>
+	</ion-footer-bar>
+</ion-view>
